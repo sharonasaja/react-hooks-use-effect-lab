@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import Question from "./Question";
 import quiz from "../data/quiz";
 
@@ -36,6 +36,7 @@ function App() {
       </section>
     </main>
   );
+
 }
 
 export default App;
